@@ -1,0 +1,170 @@
+/* Common Styles  */
+* {
+    margin: 0;
+}
+.inter-normal {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Miama';
+  src: url('resources/Miama.ttf');
+  font-style: normal;
+}
+.f-14 {
+    font-size: 14px;
+}
+.f-16 {
+    font-size: 16px;
+}
+.f-18 {
+    font-size: 18px;
+}
+.f-20 {
+    font-size: 20px;
+}
+.f-24 {
+    font-size: 24px;
+}
+.f-36 {
+    font-size: 36px;
+}
+.f-40 {
+    font-size: 40px;
+}
+.f-48 {
+     font-size: 48px;
+}
+.f-78 {
+    font-size: 78px;
+}
+.semi {
+    font-weight: 600;
+}
+.bold {
+    font-weight: 700;
+}
+.extra {
+    font-weight: 800;
+}
+.tomato {
+    color: #E6533C;
+}
+.white {
+    color: white;
+}
+.black {
+    color: black
+}
+
+
+
+/* TOP Section  */
+.top {
+    background: linear-gradient(#111,#222,#111);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 8%;
+    align-items: center;
+}
+.nav-links {
+    padding: 10px 0;
+    border: 1px solid #444;
+    border-radius: 40px;
+}
+.nav-links li {
+    display: inline;
+    list-style: none;
+    color: white;
+    padding: 0;
+    
+}
+.nav-links a {
+    text-decoration: none;
+    margin: 0;
+    padding: 10px 15px;
+    border-radius: 40px;
+}
+.nav-links a:focus {
+    background-color: #E6533C;
+    transition: background-color, 0.5s, ease, 0.5s;
+}
+
+.hero {
+    padding: 3% 8% 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-desc {
+    border: 1px solid white;
+}
+.hero-img {
+    border: 1px solid white;
+    margin-right: 4%;
+    position: relative;
+}
+.box {
+    width: 180px;
+    height: 100px;
+    border-radius: 15px;
+    position: absolute;
+    color: #FFF;
+}
+#box-1 {
+    top: 100px;
+    right: -80px;
+    background-color: #FFF2;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#box-2 {
+    bottom: 50px;
+    left: -80px;
+    backdrop-filter: blur(10px);
+    background-color: #fff1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.play-image img {
+    width: 30px;
+}
+.hero-desc > h1 > span {
+    font-family: 'Miama', sans-serif;
+    font-weight: 500;
+}
+.hero-desc > h1 {
+    line-height: 100%;
+}
+.hero-desc p {
+    margin-top: 30px;
+    width: 60%;
+    font-weight: 300;
+}
+.btns {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    width: 50%;
+}
+.btn {
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: white;
+}
+.orange-btn {
+    background-color: #E6533C;
+    border: none;
+}
+.dark-btn {
+    background-color: #111;
+    border: 1px solid #444;
+}
