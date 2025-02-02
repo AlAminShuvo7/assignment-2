@@ -213,7 +213,7 @@ nav {
 /* Run Part  */
 .run {
     background-color: #333;
-    margin: 20px 12%;
+    margin: 150px 12%;
     color: #FFF;
     display: flex;
     gap: 5%;
@@ -237,3 +237,78 @@ nav {
     padding-right: 10%;
 }
 
+/* Training  */
+.train-head {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.train-gallery {
+    padding: 0 15%;
+    display: grid;
+    grid-template-areas: "i1 i1 i1 i2 i2 i2 i2 i2 i2 i3 i3 i3"
+    "i4 i4 i4 i4 i4 i5 i5 i5 i6 i6 i6 i6";
+    gap: 0px;
+}
+:root {
+    --wide: 100%;
+    --high: 200px;
+    --bg: cover;
+}
+.p1 {
+    background-image: linear-gradient(rgba(48, 129, 154, 0.5),rgba(48, 129, 154, 0.5)), url(images/exercise1.jpg);
+    background-size: var(--bg);
+    width: var(--wide);
+    height: var(--high);
+    grid-area: i1;
+    background-repeat: no-repeat;
+}
+.p2 {
+    background-image: linear-gradient(rgba(188, 128, 88, 0.5),rgba(176, 143, 84, 0.5)), url(images/exercise2.png);
+    background-size: var(--bg);
+    grid-area: i2;
+    background-repeat: no-repeat;
+    width: var(--wide);
+    height: var(--high);
+}
+.p3 {
+    background-image: linear-gradient(rgba(80, 75, 72, 0.5),rgba(91, 88, 85, 0.5)), url(images/exercise3.png);
+    background-size: var(--bg);
+    grid-area: i3;
+    background-repeat: no-repeat;
+    width: var(--wide);
+    height: var(--high);
+}
+.p4 {
+    background-image: linear-gradient(rgba(60, 40, 38, 0.425),rgba(82, 58, 52, 0.5)), url(images/exercise4.png);
+    background-size: var(--bg);
+    grid-area: i4;
+    background-repeat: no-repeat;
+    width: var(--wide);
+    height: var(--high);
+}
+.p5 {
+    background-image: linear-gradient(rgba(99, 154, 104, 0.5),rgba(96, 154, 100, 0.5)), url(images/exercise5.jpg);
+    background-size: var(--bg);
+    grid-area: i5;
+    background-repeat: no-repeat;
+    width: var(--wide);
+    height: var(--high);
+}
+.p6 {
+    background-image: linear-gradient(rgba(124, 106, 154, 0.5),rgba(134, 107, 171, 0.5)), url(images/exercise6.jpg);
+    background-size: var(--bg);
+    grid-area: i6;
+    background-repeat: no-repeat;
+    width: var(--wide);
+    height: var(--high);
+}
+.train {
+    margin-bottom: 100px;
+}
+
+/* Calculator Part */
+.calc-head
