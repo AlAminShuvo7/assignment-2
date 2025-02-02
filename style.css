@@ -2,6 +2,9 @@
 * {
     margin: 0;
 }
+body {
+    background-color: #111;
+}
 .inter-normal {
   font-family: "Inter", serif;
   font-optical-sizing: auto;
@@ -167,4 +170,42 @@ nav {
 .dark-btn {
     background-color: #111;
     border: 1px solid #444;
+}
+
+/* Habit part  */
+.habit {
+    background-color: #111;
+    color: #FFF;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding: 0 8%;
+}
+.habit-desc {
+    text-align: center;
+}
+.habit-gallery {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.habit-gallery > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+.habit-gallery > div > img {
+    border-radius: 50%;
+}
+.habit-gallery > div > h4 {
+    font-size: 20px;
+}
+.habit-gallery > div > p {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 10px;
+    text-align: center;
 }
