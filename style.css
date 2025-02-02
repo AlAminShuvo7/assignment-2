@@ -31,6 +31,9 @@ body {
 .f-24 {
     font-size: 24px;
 }
+.f-32 {
+    font-size: 32px;
+}
 .f-36 {
     font-size: 36px;
 }
@@ -39,6 +42,9 @@ body {
 }
 .f-48 {
      font-size: 48px;
+}
+.f-70 {
+    font-size: 70px;
 }
 .f-78 {
     font-size: 78px;
@@ -346,7 +352,7 @@ td {
     margin-bottom: 15px;
 }
 .convert > p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .inputs {
     max-width: 900px;
@@ -401,3 +407,37 @@ input::placeholder {
 }
 
 /* Bottom Section  */
+.bottom {
+    margin-top: 100px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr 2fr 2fr;
+    padding: 50px 10%;
+    gap: 40px;
+    background-color: #222;
+}
+.bottom > div > p {
+    padding-right: 10%;
+}
+.last > h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.last > p {
+    font-size: 22px;
+    font-weight: 200;
+    color: #ccc;
+    margin-top: 10px;
+}
+footer {
+    background-color: #222;
+}
+hr {
+    border: 1px solid #444;
+    width: 60%;
+    margin: auto;
+}
+footer > p {
+    text-align: center;
+    padding: 30px 0;
+}
