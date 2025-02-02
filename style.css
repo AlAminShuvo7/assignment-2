@@ -4,6 +4,7 @@
 }
 body {
     background-color: #111;
+    color: #FFF;
 }
 .inter-normal {
   font-family: "Inter", serif;
@@ -41,6 +42,9 @@ body {
 }
 .f-78 {
     font-size: 78px;
+}
+.light {
+    font-weight: 300;
 }
 .semi {
     font-weight: 600;
@@ -102,11 +106,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-.hero-desc {
-    border: 1px solid white;
-}
 .hero-img {
-    border: 1px solid white;
     margin-right: 4%;
     position: relative;
 }
@@ -209,3 +209,31 @@ nav {
     padding: 0 10px;
     text-align: center;
 }
+
+/* Run Part  */
+.run {
+    background-color: #333;
+    margin: 20px 12%;
+    color: #FFF;
+    display: flex;
+    gap: 5%;
+    border-radius: 10px;
+    padding: 30px 2%;
+    align-items: center;
+
+}
+.run > div {
+    width: 50%;
+}
+.run > div >img {
+    width: 80%;
+    border-radius: 15px;
+}
+.run-head h2 {
+    margin-bottom: 20px;
+}
+.run-head p {
+    margin-bottom: 20px;
+    padding-right: 10%;
+}
+
