@@ -406,7 +406,7 @@ input::placeholder {
 }
 .team-gallery > img {
     width: 100%;
-    height: 35vh;
+    height: 20vw;
     object-fit: fill;
     border-radius: 10px;
 }
@@ -478,6 +478,9 @@ footer > p {
     grid-template-columns: 1fr 1fr;
     padding: 0 5%;
     }
+    .run {
+        margin: 100px 6%;
+    }
     .run-img {
         width: 40vw;
     }
@@ -499,6 +502,7 @@ footer > p {
     }
     .convert {
     width: 80%;
+    text-align: center;
     }
     .team-head {
         padding: 0 10%;
@@ -512,6 +516,7 @@ footer > p {
     #ichi {
         grid-area: one;
         margin-bottom: 40px;
+        text-align: center;
     }
     #nii {
         grid-area: two;
@@ -523,6 +528,9 @@ footer > p {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "one one"
         "two three";
+    }
+    .btns {
+        width: 70%;
     }
 }
 
@@ -555,5 +563,63 @@ footer > p {
     gap: 40px;
     grid-template-columns: 1fr;
     padding: 0 5%;
+    }
+    .run {
+        flex-direction: column;
+        align-items: center;
+        margin: 100px 3%;
+        padding: 20px 0;
+    }
+    .run-head {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .run-head > p {
+        padding: 0;
+    }
+    .train-head {
+        padding: 0 5%;
+    }
+    .train-gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "i1 i2"
+        "i4 i5"
+        "i3 i6";
+    }
+    .calc {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .convert {
+    width: 80%;
+    text-align: center;
+    }
+    .team-head {
+        padding: 0 10%;
+    }
+    .team-gallery {
+        grid-template-columns: 1fr;
+    }
+    .team-gallery > img {
+        height: 20vh;
+    }
+    .bottom {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 40px;
+        margin-top: 40px;
+    }
+    #box-1 {
+        top: 200px;
+        right: 20px;
+    }
+    #box-2 {
+        bottom: 40px;
+        left: 35px;
+    }
+    .btns {
+        width: 90%;
     }
 }
